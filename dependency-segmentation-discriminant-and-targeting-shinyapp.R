@@ -1,4 +1,4 @@
-if (!require("shiny")} {install.packages("shiny")}
+if (!require("shiny")} {install.packages("shiny")};library(shiny)
 if (!require("devtools")} {install.packages("devtools")}; library(devtools)
 if (!require("ggbiplot")} {install_github("ggbiplot","vqv")}
 if (!require("ggplot2")} {install.packages("ggplot2")}
